@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LTC Auto Helper",
+  "version": "1.0",
+  "description": "ltc-learning.org適用, 繞過分頁檢查, 自動點擊閒置確認 ",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "LTC Auto Helper"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": ["https://ltc-learning.org/learn/*"]
+}
